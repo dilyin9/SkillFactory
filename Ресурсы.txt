@@ -1,0 +1,5 @@
+Визуальная проверка сайта
+
+1) https://www.lightningdesignsystem.com/accessibility/patterns/overview/ - паттерны доступности сайта
+2) https://weblind.ru/inner.html#image-content - рекомендации по разработке сайта для людей с нарушениями зрения
+3) wave - утилита для проверки верстки
