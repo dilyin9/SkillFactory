@@ -1,0 +1,61 @@
+header {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #147fb5;
+}
+nav {
+  height: 30px;
+  text-align: center;
+}
+.nav_item {
+  color: #147fb5;
+  vertical-align: -webkit-baseline-middle;
+  margin-left: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.nav_item:hover {
+  color: #063970;
+}
+main  {
+  margin: 0 50px;
+}
+h1 {
+  color: #88709c;
+  font-family: 'Playfair Display SC', serif;
+}
+h2 {
+  color: #ac9bba;
+  text-decoration: underline;
+  font-family: 'Playfair Display SC', serif;
+}
+p, li, a {
+  font-family: 'Raleway', sans-serif;
+}
+.image_div {
+text-align: center;
+background: #e6ecbe;
+padding-bottom: 20px;
+margin-top: 20px;
+border: solid 1px;
+}
+#icon {
+  vertical-align: middle;
+}
+footer {
+  text-align: center;
+  border-top: solid 0.5px #e7e2eb;
+}
+footer p {
+  font-size: 14px;
+}
+footer p span {
+  color: rgb(21, 170, 240);
+  font-size: 16px;
+}
+.contact_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
