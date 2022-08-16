@@ -1,0 +1,32 @@
+.navigation_menu {
+  list-style: none;
+  display: flex;
+}
+
+.navigation_item {
+  margin-right: 47px;
+}
+
+.navigation_item_link {
+  text-decoration: none;
+}
+
+.header {
+  height: 83px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation_button {
+  display: flex;
+  align-items: flex-start;
+}
+
+.main_name {
+  margin-left: 90px;
+  min-width: 270px;
+}
+.button {
+  margin-right: 90px;
+  margin-left: 42px;
+}
