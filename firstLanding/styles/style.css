@@ -1,3 +1,11 @@
+body {
+  font-size: 11px;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+}
 .navigation_menu {
   list-style: none;
   display: flex;
@@ -9,9 +17,11 @@
 
 .navigation_item_link {
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .header {
+  background: #131313;
   height: 83px;
   display: flex;
   justify-content: space-between;
@@ -19,7 +29,7 @@
 }
 .navigation_button {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .main_name {
@@ -27,6 +37,45 @@
   min-width: 270px;
 }
 .button {
+  width: 161px;
+  height: 37px;
+  border-style: none;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  background-color: #E3B873;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
   margin-right: 90px;
   margin-left: 42px;
+}
+.yellowText {
+  color: #E3B873;
+}
+
+.section1_block {
+  background-image: url('/images/section1_background.jpg');
+  background-size: cover;
+  height: 707px;
+  position: relative;
+}
+
+.section1_block:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: ;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Yeseva One', cursive;
+  font-size: 40px;
+  color: #FFFFFF;
+  padding-top: 194px;
+  padding-left: 134px;
+  width: 676px;
 }
