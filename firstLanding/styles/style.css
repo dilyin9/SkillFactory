@@ -314,8 +314,105 @@ h3 {
   margin: 0 auto;
 }
 
+.section3_entries {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 37px;
+}
 .section3_text {
   width: 681px;
   position: relative;
   margin: 10px auto 93px;
+}
+.section3_text .basetext {
+  margin-bottom: 0px;
+}
+div[class*="section3_input"] {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+div[class*="section3_input"] p {
+  text-align: left;
+  margin: 0;
+  height: 12px;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(54, 54, 54, 0.5);
+}
+input::placeholder {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;;
+}
+
+input[type="text"] {
+  width: 231px;
+  margin-top: 7px;
+  padding: 2px 0 8px;
+  border:none;
+  border-bottom: solid 1px rgba(54, 54, 54, 0.3);
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.section3_entries button {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 51px;
+  background: #E3B873;
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 2px;
+  font-size: 13px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+}
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+input[type="checkbox"]+label {
+  display: inline-flex;
+  align-items: center;
+}
+input[type="checkbox"]+label::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: solid 1px #adb5bd;
+  border-radius: 1px;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+  background-color: #fdfdfd;
+}
+input[type="checkbox"]:checked+label::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: solid 1px #E3B873;
+  border-radius: 1px;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+  background-color: #E3B873;
 }
