@@ -519,10 +519,10 @@ h4 {
   color: #FFFFFF;
   font-size: 18px;
   line-height: 25px;
-  width: 42px;
-  height: 42px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  border:none;
+  border: solid 8px #FFFFFF;
   background: #E3B873;
   filter: drop-shadow(0px 5px 15px rgba(227, 184, 115, 0.15));
   margin-left: 243px;
@@ -533,4 +533,63 @@ h4 {
   background-image: url("/images/section5_image.png");
   background-size: contain;
   opacity: 80%;
+}
+
+.section5_blackblock {
+  padding: 28px 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 506px;
+  height: 509px;
+  background: #131313;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+  margin-top: 59px;
+}
+.section5_blackblock .basetext {
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+.section5_input .basetext {
+  text-align: left;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.section5_input input[type="text"] {
+  margin: 0 auto;
+  width: 408px;
+  color: #fff;
+  background: inherit;
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+.section5_input input[type="text"]::placeholder {
+  color: #fff ;
+}
+div[class*="section5_input"] {
+  margin-top: 48px;
+}
+.section5_input.first {
+  margin-top: 39px;
+}
+
+.section5_checkbox {
+  margin-top: 16px;
+  display: flex;
+  width: 408px;
+}
+.section5_checkbox input[type="checkbox"]+label {
+  color: #fff;
+  align-items: flex-start;
+  margin-bottom: 0px;
+}
+
+.callbutton {
+  text-transform: uppercase;
+  width: 213px;
+  height: 51px;
+  font-size: 13px;
+  margin: 5px 0;
+  align-self: end;
 }
