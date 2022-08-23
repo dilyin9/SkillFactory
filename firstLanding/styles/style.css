@@ -696,3 +696,79 @@ div[class*="section5_input"] {
 .center_icon {
   margin: 0 3px;
 }
+.section_7_block .basetext {
+  line-height: 29px;
+}
+.section7_feedback {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 103px;
+  margin-top: 21px;
+}
+.section7_feedback >div:nth-child(2) {
+  margin: 0px 54px;
+}
+.feedback_element_person {
+  display: flex;
+  margin: 23px 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+.feedback_element_person h4 {
+  margin: 0;
+}
+
+.section7_feedback_element {
+  width: 376px;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+.person_photo {
+  margin-right: 23px;
+}
+.feedback_text {
+  font-family: 'Nunito Sans';
+  color: #959595;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23.4px;
+  width: 324px;
+  height: 239px;
+  margin: 0 0 67px 0;
+}
+.feedback_buttons button {
+  text-align: start;
+  height: 54px;
+  background: #E3B873;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+  color: #fff;
+  border: none;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 24px;
+  padding-left: 65px;
+}
+.feedback_buttons {
+  display: inline-flex;
+  margin-top: -27px;
+  margin-left: -20px;
+}
+.feedback_buttons button:nth-child(1) {
+  width: 135px;
+  background-image: url('/images/section7_button1.png');
+  background-repeat: no-repeat;
+  background-position: 17px 11px;
+  border-right: solid 0.75px #FFF;
+}
+.feedback_buttons button:nth-child(2) {
+  width: 159px;
+  background-image: url('/images/section7_button2.png');
+  background-repeat: no-repeat;
+  background-position: 17px 11px;
+}
