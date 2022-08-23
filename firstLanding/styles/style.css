@@ -36,7 +36,7 @@ h3 {
   font-family: 'Yeseva One';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   color: #E3B873;
   line-height: 25px;
   text-transform: uppercase;
@@ -195,7 +195,7 @@ h3 {
   padding-left: 135px;
 }
 
-.section2_title {
+.section_2_info .section_title {
   margin-top: 0;
   width: 253px;
 }
@@ -267,13 +267,13 @@ h3 {
   flex-wrap: wrap;
 }
 
-.section3_image, .section4_image {
+.section3_image, .section4_image, .section7_image {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 13px;
 }
-.section_3_block h3 {
+.section_3_block h3{
   font-family: 'Yeseva One';
   color: #FFFFFF;
   font-style: normal;
@@ -441,7 +441,7 @@ input[type="checkbox"]:checked+label::before {
   filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.03));
   
 }
-.section_4_block h3 {
+.section_4_block h3, .section_7_block h3 {
   color: #181818;
   text-align: center;
 }
@@ -499,6 +499,8 @@ h4 {
 
 .section_5_block {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 242px;
 }
 
 .section5_list_element p {
@@ -533,6 +535,9 @@ h4 {
   background-image: url("/images/section5_image.png");
   background-size: contain;
   opacity: 80%;
+}
+.section5_secondblock {
+  margin-right: 100px;
 }
 
 .section5_blackblock {
@@ -587,9 +592,107 @@ div[class*="section5_input"] {
 
 .callbutton {
   text-transform: uppercase;
+  border-radius: 0;
   width: 213px;
   height: 51px;
   font-size: 13px;
   margin: 5px 0;
   align-self: end;
+}
+.section5_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 38px;
+}
+.section5_footer > label {
+  font-size: 18px;
+  color: #E3B873;
+  margin-left: 25px;
+  align-self: center;
+}
+
+.section5_footerbutton {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #E3B873;
+  border: none;
+  filter: drop-shadow(0px 10px 20px rgba(237, 192, 120, 0.2));
+  background-image: url('/images/section5_coins.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 31px;
+}
+
+.section_6_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 864px;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)), url('/images/section6_background.png');
+}
+.section6_leftblock .section_title {
+  width: 411px;
+  margin-top: 137px;
+
+}
+.section6_leftblock {
+  display: flex;
+  flex-direction: column;
+  margin-left: 99px;
+  width: -webkit-fill-available;
+}
+.section6_list {
+  margin-top: 25px;
+  list-style: none;
+  padding: 0;
+}
+.section6_list_element {
+  height: 24px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 38px;
+  color: #fff;
+}
+.section6_list_element:not(:last-child) {
+  margin-bottom: 25px;
+}
+.section6_list_element:first-child{
+  margin-bottom: 22px;
+  height: 30px;
+  padding-bottom: 2px;
+  width: fit-content;
+  color: #E3B873;
+  border-bottom: solid 1px #E3B873;
+}
+.section6_middleblock {
+  width: 354px;
+  margin-right: 43px;
+}
+.section6_middleblock .image_1 {
+  margin-top: -41px;
+  margin-bottom: 39px;
+}
+.section6_rightblock {
+  width: 354px;
+  margin-right: 100px;
+}
+.section6_rightblock .image_1 {
+  margin-top: -112px;
+  margin-bottom: 37px;
+}
+
+.section_7_block {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wra
+}
+.center_icon {
+  margin: 0 3px;
 }
