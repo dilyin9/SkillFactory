@@ -963,10 +963,14 @@ background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24
     border-radius: 0;
     margin: 26px 0 0;
   }
+  .section_2 {
+    background: #181818;
+  }
   .section2_block {
     display: flex;
     flex-direction: column;
     margin: 0 18px;
+    background: #181818;
   }
   .section2_header {
     display: none;
@@ -995,5 +999,21 @@ background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24
     width: auto;
     padding: unset;
     justify-content: center;
+  }
+
+  .section2_imagemob {
+    display: flex;
+    justify-content: space-between;
+    height: 241.35px;
+    background-image: url('/images/section2_mobile.png');
+  }
+  .circle_button {
+    background-color: #E3B873;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    width: 36px;
+    height: 36px;
   }
 }
