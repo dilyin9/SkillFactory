@@ -36,14 +36,20 @@
           TURNKEY REPAIR IN THE CITY OF <span class="yellowText">ROSTOV-ON-DON</span>
         </h1>
         <div class="section1_elements">
-        <p class="text">
+        <p class="text desktop">
           Get ready-made turnkey repairs on time <br>with work time saving up to 45 days and 20% from <br> cost of materials due to the organization of work
+        </p>
+        <p class="text mobile">
+          Get ready-made turnkey repairs on time <br>with work time saving up to 45 days and<br> 20% from cost of materials due to the organization of work
         </p>
         <button class="button" id="s1_b1"  >
           CALCULATE THE COST
         </button>
-        <button class="button" id="s2_b2">
+        <button class="button desktop" id="s2_b2">
           SUBMIT YOUR APPLICATION
+        </button>
+        <button class="button mobile" id="s2_b2">
+          APPLICATION
         </button>
         </div>
       </div>
@@ -60,9 +66,13 @@
         </div>
         <div class="section2_main">
         <div class="section_2_info">
-            <h2 class="section_title">Completed projects</h2>
-            <p class="text section2_text"> Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction <br> market we have made happy more than 1000 familie</p>
-            <div class="section2_block1">
+            <h2 class="section_title desktop">Completed projects</h2>
+            <h2 class="section_title mobile">Completed <br>projects</h2>
+            <p class="text section2_text"> Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction <br> market we have made happy more than 1000 families</p>
+            <div class="section2_imagemob mobile">
+
+            </div>
+            <div class="section2_block1 desktop">
               <div class="section2_info_left">
                 <h3>city:</h3>
                 <p class="section2_block_text">Rostov-on-Don <br>LCD admiral</p>
@@ -72,7 +82,7 @@
                 <p class="section2_block_text">81 m2</p>
               </div>
             </div>
-            <div class="section2_block2">
+            <div class="section2_block2 desktop">
               <div class="section2_info_left">
                 <h3>Repair time:</h3>
                 <p class="section2_block_text">3.5 months</p>
@@ -82,7 +92,7 @@
                 <p class="section2_block_text">Upon request</p>
               </div>
             </div>
-            <div class="section2_pagination">
+            <div class="section2_pagination desktop">
               <input type="image" src="/images/left_arrow.png" width="41" height="13.5" />
               <ul class="pagination_list">
                 <span class="dot"></span>
@@ -94,14 +104,14 @@
             <div>
             </div>
         </div>
-        <div class="section2_image">
+        <div class="section2_image desktop">
         </div>
       </div>
       </div>
     </section>
     <section class="section_3">
       <div class="section_3_block">
-        <h3>online control</h3>
+        <h3 class="custom_h3">online control</h3>
         <div class="section3_image">
           <img src="/images/section3_line.png">
           <img src="/images/section3_image.png">
@@ -132,7 +142,7 @@
     </section>
     <section class="section_4">
         <div class="section_4_block">
-          <h3>TYPES OF REPAIR</h3>
+          <h3 class="custom_h3">TYPES OF REPAIR</h3>
           <div class="section4_image">
             <img src="/images/section3_line.png">
             <img src="/images/section4_image.png">
@@ -276,7 +286,7 @@
     </section>
     <section class="section7">
         <div class="section_7_block">
-          <h3>our clients</h3>
+          <h3 class="custom_h3">our clients</h3>
           <div class="section7_image">
             <img src="/images/section3_line.png">
             <img class="center_icon" src="/images/section7_icon.png">
@@ -320,11 +330,67 @@
                     <button>128 days</button>
                   </div>  
                   </div>
-
+          </div>
+          <div class="section7_background">
+            <img src="/images/Frame.jpg">
+            <img src="/images/Frame.jpg">
           </div>
         </div>
-
+    </section>
+    <section class="section8">
+      <div class="section_8_block">
+        <div class="section8_contacts">
+          <h3 class="custom_h3">have any questions?</h3>
+          <div class="contacts_line">
+            <div class="section8_input">
+              <p class="basetext">Name</p>
+              <input type="text" placeholder="What is your name:">
+          </div>
+          <div class="section8_input">
+            <p class="basetext">Phone</p>
+            <input type="text" placeholder="Your phone number:">
+        </div>
+          </div>
+          <div class="contacts_line second_row">
+            <div class="section8_input">
+              <p class="basetext">Question</p>
+              <input type="text" placeholder="I want to know:">
+            </div>
+          </div>
+            <input id="custom_checkbox" type="checkbox" checked>
+            <label for="custom_checkbox">I agree to the processing of personal <br>data</label>
+            <button class="button">submit</button>
+          </div>
+          <div class="section8_geo">
+            <h3 class="custom_h3">Rostov-on-Don, Nansen St., 239 Shopping Center<br> Decorum Tel +7 (928) 768 32 29</h3>
+            <div class="section8_icons">
+              <button class="section8_icon"></button>
+              <button class="section8_icon"></button>
+            </div>
+            <img src="/images/map.png">
+          </div>
+        </div>
+      </div>
     </section>
   </main>
+  <footer>
+    <div class="main_name yellowText">
+      IC "REPAIR DESIGN PROJECT"
+    </div>
+      <nav>
+        <ul class="navigation_menu">
+          <li class="navigation_item"><a class="navigation_item_link yellowText" href="#">HOME</a></li>
+          <li class="navigation_item"><a class="navigation_item_link" href="#">PROJECTS</a></li>
+          <li class="navigation_item"><a class="navigation_item_link" href="#">MEASUREMENT</a></li>
+          <li class="navigation_item"><a class="navigation_item_link" href="#">TEAM</a></li>
+          <li class="navigation_item"><a class="navigation_item_link" href="#">REVIEWS</a></li>
+          <li class="navigation_item"><a class="navigation_item_link" href="#">CONTACTS</a></li>
+        </ul>
+     </nav>
+     <div class="navigation_button">
+       <a class="yellowText" href="#">+7-928-768-32-39</a>
+      <button class="button">REQUEST A CALL</button>
+     </div>
+  </footer>
 </body>
 </html>
