@@ -280,7 +280,7 @@ footer {
   align-items: center;
   margin-top: 13px;
 }
-.section_3_block h3{
+.section_3_block h2{
   font-family: 'Yeseva One';
   color: #FFFFFF;
   font-style: normal;
@@ -965,6 +965,7 @@ background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24
   }
   .section_2 {
     background: #181818;
+    padding-bottom: unset;
   }
   .section2_block {
     display: flex;
@@ -1002,18 +1003,135 @@ background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24
   }
 
   .section2_imagemob {
+    padding: 0 14px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 241.35px;
     background-image: url('/images/section2_mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .circle_button {
     background-color: #E3B873;
     border-radius: 50%;
+    background-image: url(/images/go_back.png);
     background-position: center;
     background-repeat: no-repeat;
     border: none;
     width: 36px;
     height: 36px;
   }
+  .section2_imagemob > button:nth-child(2) {
+    background-image: url(/images/go_forward.png);
+  }
+  div[class*="section2_block"] h3 {
+    line-height: 19.4px;
+    font-size: 14px;
+  }
+  div[class*="section2_block"] p {
+    font-size: 11px;
+    line-height: 14.94px;
+  }
+  .section2_block1 {
+    margin-top: 36.65px;
+    justify-content: flex-start;
+
+  }
+  .section2_block2 {
+    height: unset;
+    margin-bottom: 64px;
+
+  }
+  .section_3 {
+    background: #181818;
+  }
+  .section_3_block {
+    margin: 0 18px;
+    background: inherit;
+  }
+
+  .section_3_block h2 {
+      margin: 0 auto;
+      font-size: 22px;
+      line-height: 30.5px;
+  }
+  .section3_image, .section4_image, .section7_image {
+    margin-top: 20px;
+  }
+  .section3_video {
+    margin: 41px 18px 0;
+    height: 207px;
+    width: unset;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("/images/section3_backgroundimage_mob.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .section3_video button {
+    width: 37px;
+    height: 37px;
+    background-image: url(/images/Polygon_mob.png)
+  }
+  .section3_divider {
+    height: 29px;
+  }
+  .section3_text  {
+    display: flex;
+    justify-content: center;
+    width: unset;
+    margin:21px auto 61px;
+  }
+  .section3_text .basetext {
+    margin: 0;
+    font-size: 11px;
+    color: #fff;
+    line-height: 18.68px;
+  }
+  .section3_entries {
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+  }
+  div[class*="section3_input"] p {
+    color: rgba(255, 255, 255, 0.5);
+    height: unset;
+  }
+  input[type="text"] {
+    width: 100%;
+    background: inherit;
+    border-bottom-color: #fff;
+    color: #fff;
+    margin: 0;
+  }
+  input[type="text"]::placeholder {
+    color: #fff;
+  }
+  .section3_input1 {
+    margin-bottom: 63px;
+  }
+  input[type="checkbox"]+label {
+    justify-content: flex-start;
+    margin: 26px 0 62.43px;
+    color: #fff;
+  }
+  .section_3_block .button {
+    width: auto;
+    box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+    height: 51px;
+    border-radius: 0;
+    font-size: 13px;
+    line-height: 26.6px;
+    text-transform: uppercase;
+    margin-bottom: -25px;
+  }
+  .section_4_block {
+    margin: 0 18px;
+  }
+  .section_4_block h3 {
+    margin-top: 83px;
+    font-size: 22px;
+    line-height: 30.5px;
+  }
+  .
 }
